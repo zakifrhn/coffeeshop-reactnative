@@ -64,7 +64,7 @@ This project employs React to create a front-end app from a Coffee shop mockup w
 
 This project is based on :
 * [![postgresql][postgresql.js]][postgresql-url]
-* ![go.js][golang-url]
+* [![go][go.js]][go-url]
 * [![react][react.js]][react-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
