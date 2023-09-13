@@ -8,8 +8,11 @@
 <br />
 <div align="center">
 
-  <h3 align="center">Coffee Shop Mobile Apps</h3>
-  Front End for Coffee shop
+<h1 style="border:0;margin:1rem">Coffeshop Mobile Apps</h1>
+
+Front End for Coffeshop
+
+<hr>
 
   <p align="center">
     <br />
