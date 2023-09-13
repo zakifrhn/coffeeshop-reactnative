@@ -64,7 +64,7 @@ This project employs React to create a front-end app from a Coffee shop mockup w
 
 This project is based on :
 * [![postgresql][postgresql.js]][postgresql-url]
-* [![nodejs][go.js]][golang-url]
+* [![go.js]][golang-url]
 * [![react][react.js]][react-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -112,11 +112,11 @@ This project worker can follow the steps below:
 <!-- CONTACT -->
 ## Contact
 
-Zaki Farhan - [@zakifrhn](https://github.com/zakifrhn) farhan08432@gmail.com
-Krisna Ajie Dewantara - [@ajiedewantara](https://github.com/Ravictation) adjiedewantara24@gmail.com
-Verdi Sasmeka - [@sasmeka](https://github.com/sasmeka)  verdysas@gmail.com
-Eka Septian - [@eka-art](https://github.com/ekhaart-dev) ekhaart02@gmail.com
-Julian Mindria - [@julian](https://github.com/JulianMindria)  mindriajulian
+Zaki Farhan - [@zakifrhn](https://github.com/zakifrhn) farhan08432@gmail.com  <br/>
+Krisna Ajie Dewantara - [@ajiedewantara](https://github.com/Ravictation) adjiedewantara24@gmail.com <br/>
+Verdi Sasmeka - [@sasmeka](https://github.com/sasmeka)  verdysas@gmail.com <br/>
+Eka Septian - [@eka-art](https://github.com/ekhaart-dev) ekhaart02@gmail.com <br/>
+Julian Mindria - [@julian](https://github.com/JulianMindria)  mindriajulian <br/>
 
 
 ## Related
