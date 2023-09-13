@@ -8,9 +8,9 @@
 <br />
 <div align="center">
 
-<h1 style="border:0;margin:1rem">Coffeshop Mobile Apps</h1>
+<h1 style="border:0;margin:1rem">Coffeeshop Mobile Apps</h1>
 
-Front End for Coffeshop
+Front End for Coffeeshop
 
 <hr>
 
