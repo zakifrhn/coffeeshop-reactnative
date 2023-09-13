@@ -64,7 +64,7 @@ This project employs React to create a front-end app from a Coffee shop mockup w
 
 This project is based on :
 * [![postgresql][postgresql.js]][postgresql-url]
-* [![go.js]][golang-url]
+* ![go.js][golang-url]
 * [![react][react.js]][react-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -116,7 +116,7 @@ Zaki Farhan - [@zakifrhn](https://github.com/zakifrhn) farhan08432@gmail.com  <b
 Krisna Ajie Dewantara - [@ajiedewantara](https://github.com/Ravictation) adjiedewantara24@gmail.com <br/>
 Verdi Sasmeka - [@sasmeka](https://github.com/sasmeka)  verdysas@gmail.com <br/>
 Eka Septian - [@eka-art](https://github.com/ekhaart-dev) ekhaart02@gmail.com <br/>
-Julian Mindria - [@julian](https://github.com/JulianMindria)  mindriajulian <br/>
+Julian Mindria - [@julian](https://github.com/JulianMindria)  mindriajulian@gmail.com <br/>
 
 
 ## Related
