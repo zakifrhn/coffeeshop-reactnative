@@ -121,7 +121,7 @@ Julian Mindria - [@julian](https://github.com/JulianMindria) - mindriajulian@gma
 
 ## Related
 
-[Coffeeshop Backend](https://github.com/sasmeka/backend_coffeshop_with_go/main)
+[Coffeeshop Backend](https://github.com/sasmeka/backend_coffeshop_with_go/tree/main)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
