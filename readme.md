@@ -112,11 +112,11 @@ This project worker can follow the steps below:
 <!-- CONTACT -->
 ## Contact
 
-Zaki Farhan - [@zakifrhn](https://github.com/zakifrhn) farhan08432@gmail.com  <br/>
-Krisna Ajie Dewantara - [@ajiedewantara](https://github.com/Ravictation) adjiedewantara24@gmail.com <br/>
-Verdi Sasmeka - [@sasmeka](https://github.com/sasmeka)  verdysas@gmail.com <br/>
-Eka Septian - [@eka-art](https://github.com/ekhaart-dev) ekhaart02@gmail.com <br/>
-Julian Mindria - [@julian](https://github.com/JulianMindria)  mindriajulian@gmail.com <br/>
+Zaki Farhan - [@zakifrhn](https://github.com/zakifrhn) - farhan08432@gmail.com  <br/>
+Krisna Ajie Dewantara - [@ajiedewantara](https://github.com/Ravictation) - adjiedewantara24@gmail.com <br/>
+Verdi Sasmeka - [@sasmeka](https://github.com/sasmeka) - verdysas@gmail.com <br/>
+Eka Septian - [@eka-art](https://github.com/ekhaart-dev) - ekhaart02@gmail.com <br/>
+Julian Mindria - [@julian](https://github.com/JulianMindria) - mindriajulian@gmail.com <br/>
 
 
 ## Related
@@ -124,6 +124,15 @@ Julian Mindria - [@julian](https://github.com/JulianMindria)  mindriajulian@gmai
 [Coffeeshop Backend](https://github.com/sasmeka/backend_coffeshop_with_go/main)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## License
+
+This project is licensed under the ISC License
+
+
+## Suggestion
+
+If you find bugs / find better ways / suggestions you can pull request.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
