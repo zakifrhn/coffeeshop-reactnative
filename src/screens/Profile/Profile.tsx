@@ -32,11 +32,6 @@ const Profile = ({ navigation }) => {
             setimage_user(data.data[0].image)
             // dispatch(adddata(data.data))
         } catch (error) {
-            // if (error.response.data.status == 401) {
-            // seterror_message(error.response.data.message)
-            // btnlogout()
-            // }
-            // seterror_message(error.response.data.message)
             console.log(error)
         }
     }
@@ -71,7 +66,14 @@ const Profile = ({ navigation }) => {
                         Edit
                     </Text>
                 </View>
-                <View style={{ justifyContent: 'space-around', flexDirection: 'row', marginTop: 10, marginHorizontal: 30, height: 200, backgroundColor: 'white', borderRadius: 20 }}>
+                <View style={{
+                    justifyContent: 'space-around',
+                    flexDirection: 'row', marginTop: 10,
+                    marginHorizontal: 30,
+                    height: 200,
+                    backgroundColor: 'white',
+                    borderRadius: 20
+                }}>
                     <Image source={{ uri: image_user }} style={{
                         width: 130,
                         height: 130,
@@ -82,61 +84,61 @@ const Profile = ({ navigation }) => {
                         <Text style={{ fontWeight: 'bold', fontSize: 25, marginVertical: 4 }}>
                             {name}
                         </Text>
-                        <Text style={{ marginTop: 5, fontSize: 18, color: '#6A4029' }}>
+                        <Text style={styles.detailprof}>
                             {email}
                         </Text>
-                        <Text style={{ marginTop: 5, fontSize: 18, color: '#6A4029' }}>
+                        <Text style={styles.detailprof}>
                             {phone}
                         </Text>
-                        <Text style={{ marginTop: 5, fontSize: 18, color: '#6A4029' }}>
+                        <Text style={styles.detailprof}>
                             {add}
                         </Text>
                     </View>
                 </View>
-                <TouchableOpacity onPress={() => navigation.navigate('')} style={{ justifyContent: 'space-between', flexDirection: 'row', marginTop: 20, marginHorizontal: 30, height: 70, backgroundColor: 'white', borderRadius: 20 }}>
+                <TouchableOpacity onPress={() => navigation.navigate('')} style={styles.btnprofile}>
                     <View style={{ alignSelf: 'center', width: 180 }}>
-                        <Text style={{ margin: 20, fontSize: 18, fontWeight: 'bold' }}>
+                        <Text style={styles.btntext}>
                             Order History
                         </Text>
                     </View>
                     <View style={{ alignSelf: 'center', width: 180 }}>
-                        <Text style={{ alignSelf: 'flex-end', margin: 20, fontSize: 18 }}>
+                        <Text style={styles.btnarrow}>
                             <AntDesign name="right" size={20} color="black" />
                         </Text>
                     </View>
                 </TouchableOpacity>
-                <TouchableOpacity onPress={() => navigation.navigate('')} style={{ justifyContent: 'space-between', flexDirection: 'row', marginTop: 20, marginHorizontal: 30, height: 70, backgroundColor: 'white', borderRadius: 20 }}>
+                <TouchableOpacity onPress={() => navigation.navigate('')} style={styles.btnprofile}>
                     <View style={{ alignSelf: 'center', width: 180 }}>
-                        <Text style={{ margin: 20, fontSize: 18, fontWeight: 'bold' }}>
+                        <Text style={styles.btntext}>
                             Edit Password
                         </Text>
                     </View>
                     <View style={{ alignSelf: 'center', width: 180 }}>
-                        <Text style={{ alignSelf: 'flex-end', margin: 20, fontSize: 18 }}>
+                        <Text style={styles.btnarrow}>
                             <AntDesign name="right" size={20} color="black" />
                         </Text>
                     </View>
                 </TouchableOpacity>
-                <TouchableOpacity onPress={() => navigation.navigate('')} style={{ justifyContent: 'space-between', flexDirection: 'row', marginTop: 20, marginHorizontal: 30, height: 70, backgroundColor: 'white', borderRadius: 20 }}>
-                    <View style={{ alignSelf: 'center', width: 180 }}>
-                        <Text style={{ margin: 20, fontSize: 18, fontWeight: 'bold' }}>
+                <TouchableOpacity onPress={() => navigation.navigate('')} style={styles.btnprofile}>
+                    <View style={styles.btn}>
+                        <Text style={styles.btntext}>
                             FAQ
                         </Text>
                     </View>
-                    <View style={{ alignSelf: 'center', width: 180 }}>
-                        <Text style={{ alignSelf: 'flex-end', margin: 20, fontSize: 18 }}>
+                    <View style={styles.btn}>
+                        <Text style={styles.btnarrow}>
                             <AntDesign name="right" size={20} color="black" />
                         </Text>
                     </View>
                 </TouchableOpacity>
-                <TouchableOpacity onPress={() => navigation.navigate('')} style={{ justifyContent: 'space-between', flexDirection: 'row', marginTop: 20, marginHorizontal: 30, height: 70, backgroundColor: 'white', borderRadius: 20 }}>
-                    <View style={{ alignSelf: 'center', width: 180 }}>
-                        <Text style={{ margin: 20, fontSize: 18, fontWeight: 'bold' }}>
+                <TouchableOpacity onPress={() => navigation.navigate('')} style={styles.btnprofile}>
+                    <View style={styles.btn}>
+                        <Text style={styles.btntext}>
                             Help
                         </Text>
                     </View>
-                    <View style={{ alignSelf: 'center', width: 180 }}>
-                        <Text style={{ alignSelf: 'flex-end', margin: 20, fontSize: 18 }}>
+                    <View style={styles.btn}>
+                        <Text style={styles.btnarrow}>
                             <AntDesign name="right" size={20} color="black" />
                         </Text>
                     </View>
@@ -169,6 +171,21 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
         marginTop: 30,
         marginHorizontal: 30,
+    },
+    detailprof: {
+        marginTop: 5, fontSize: 18, color: '#6A4029'
+    },
+    btn: {
+        alignSelf: 'center', width: 180,
+    },
+    btntext: {
+        margin: 20, fontSize: 18, fontWeight: 'bold',
+    },
+    btnarrow: {
+        alignSelf: 'flex-end', margin: 20, fontSize: 18,
+    },
+    btnprofile: {
+        justifyContent: 'space-between', flexDirection: 'row', marginTop: 20, marginHorizontal: 30, height: 70, backgroundColor: 'white', borderRadius: 20
     }
 });
 
