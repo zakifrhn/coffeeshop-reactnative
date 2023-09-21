@@ -5,7 +5,6 @@ const Coffee = require('../../asset/Coffee.png')
 import { AntDesign } from '@expo/vector-icons';
 import useApi from '../../utils/useApi';
 import axios from 'axios'
-import { Platform } from 'react-native';
 
 const Profile = ({ navigation }) => {
     const api = useApi()
@@ -41,8 +40,6 @@ const Profile = ({ navigation }) => {
             console.log(error)
         }
     }
-
-    console.log(Platform.OS === 'ios' ? process.env.EXPO_PUBLIC_API_URL_IOS : process.env.EXPO_PUBLIC_API_URL_ANDROID)
 
     useEffect(() => {
         getDataUser()
