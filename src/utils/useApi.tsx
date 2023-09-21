@@ -4,7 +4,7 @@ import { useSelector } from "react-redux";
 import { Platform } from 'react-native';
 
 function useApi() {
-    const baseUrl = Platform.OS === 'ios' ? process.env.EXPO_API_URL_IOS : process.env.EXPO_API_URL_ANDROID;
+    const baseUrl = Platform.OS === 'ios' ? process.env.EXPO_PUBLIC_API_URL_IOS : process.env.EXPO_PUBLIC_API_URL_ANDROID;
     let token = ''
     token = token != '' ? token : ''
     const [request, setrequest] = useState({

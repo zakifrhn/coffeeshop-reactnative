@@ -9,11 +9,11 @@ import { Platform } from 'react-native';
 
 const Profile = ({ navigation }) => {
     const api = useApi()
-    const [name, setname] = useState('')
-    const [email, setemail] = useState('')
-    const [phone, setphone] = useState('')
+    const [name, setname] = useState('-')
+    const [email, setemail] = useState('-')
+    const [phone, setphone] = useState('-')
     const [add, setadd] = useState('-')
-    const [image_user, setimage_user] = useState('')
+    const [image_user, setimage_user] = useState('https://res.cloudinary.com/dgshxa0xm/image/upload/v1695297691/Default_Profile_vytdmi.png')
 
     function capital(text) {
         return text.replace(/\w\S*/g, function (word) {
@@ -24,7 +24,7 @@ const Profile = ({ navigation }) => {
 
     const getDataUser = async () => {
         try {
-            const { data } = await api({ method: 'get', url: `user` })
+            const { data } = await api({ method: 'GET', url: `user` })
             // console.log(data.data[0])
             setname(capital(data.data[0].first_name + ' ' + data.data[0].first_name))
             setemail(data.data[0].email)
@@ -33,14 +33,16 @@ const Profile = ({ navigation }) => {
             setimage_user(data.data[0].image)
             // dispatch(adddata(data.data))
         } catch (error) {
-            if (error.response.data.status == 401) {
-                // seterror_message(error.response.data.message)
-                // btnlogout()
-            }
+            // if (error.response.data.status == 401) {
+            // seterror_message(error.response.data.message)
+            // btnlogout()
+            // }
             // seterror_message(error.response.data.message)
             console.log(error)
         }
     }
+
+    console.log(Platform.OS === 'ios' ? process.env.EXPO_PUBLIC_API_URL_IOS : process.env.EXPO_PUBLIC_API_URL_ANDROID)
 
     useEffect(() => {
         getDataUser()
@@ -68,7 +70,7 @@ const Profile = ({ navigation }) => {
                     <Text style={{ fontWeight: 'bold' }}>
                         Your Information
                     </Text>
-                    <Text onPress={() => navigation.navigate('')} style={{ color: '#6A4029', fontWeight: '600' }}>
+                    <Text onPress={() => navigation.navigate('ProducDetails')} style={{ color: '#6A4029', fontWeight: '600' }}>
                         Edit
                     </Text>
                 </View>
